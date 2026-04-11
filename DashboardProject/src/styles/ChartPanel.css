@@ -1,0 +1,13 @@
+.chart-panel { display: flex; flex-direction: column; }
+.chart-legend { display: flex; align-items: center; gap: 6px; }
+.legend-dot { width: 10px; height: 10px; border-radius: 50%; background: #4E74FF; display: inline-block; }
+.legend-label { font-size: 10px; color: #6A6D80; font-weight: 500; }
+.chart-area { display: flex; gap: 8px; align-items: stretch; flex: 1; min-height: 140px; }
+.y-axis { display: flex; flex-direction: column; justify-content: space-between; padding-bottom: 20px; min-width: 36px; }
+.y-label { font-size: 8px; color: #B0B3C6; text-align: right; }
+.bars-wrap { display: flex; align-items: flex-end; gap: 4px; flex: 1; border-bottom: 1px solid #ECEDF5; padding-bottom: 4px; }
+.bar-col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; height: 100%; justify-content: flex-end; }
+.chart-bar { width: 100%; max-width: 32px; border-radius: 4px 4px 0 0; background: rgba(78,116,255,.22); transition: opacity .2s; }
+.chart-bar:hover { opacity: .8; }
+.chart-bar--active { background: #4E74FF !important; }
+.x-label { font-size: 8px; color: #B0B3C6; }

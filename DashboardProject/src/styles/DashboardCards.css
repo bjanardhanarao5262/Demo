@@ -1,0 +1,14 @@
+.cards-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.stat-card { background: #fff; border-radius: 14px; padding: 16px; box-shadow: 0 4px 18px rgba(0,0,0,.07); display: flex; align-items: flex-start; justify-content: space-between; transition: transform .2s, box-shadow .2s; }
+.stat-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.1); }
+.card-left { display: flex; align-items: flex-start; gap: 12px; }
+.card-icon-wrap { width: 44px; height: 44px; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.card-icon { font-size: 22px; }
+.card-info { display: flex; flex-direction: column; gap: 3px; }
+.card-value { font-size: 20px; font-weight: 700; color: #222230; line-height: 1.2; }
+.card-label { font-size: 10px; font-weight: 500; color: #6A6D80; }
+.card-delta { display: inline-flex; align-items: center; gap: 3px; font-size: 9px; font-weight: 600; padding: 3px 8px; border-radius: 6px; width: fit-content; margin-top: 2px; }
+.card-delta--up { background: #E0F8EE; color: #1ABD80; }
+.card-delta--down { background: #FFF0E0; color: #FD9A32; }
+.card-bars { display: flex; align-items: flex-end; gap: 4px; padding-top: 4px; height: 64px; }
+.mini-bar { width: 10px; border-radius: 2px; min-height: 6px; }

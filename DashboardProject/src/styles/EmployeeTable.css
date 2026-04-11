@@ -1,0 +1,29 @@
+.table-panel { background: #fff; border-radius: 14px; box-shadow: 0 4px 18px rgba(0,0,0,.07); overflow: hidden; }
+.table-header { display: flex; align-items: center; justify-content: space-between; padding: 16px 20px 12px; flex-wrap: wrap; gap: 12px; }
+.table-header h3 { font-size: 14px; color: #222230; }
+.table-sub { font-size: 10px; color: #A1A4B5; margin-top: 2px; display: block; }
+.table-controls { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.table-search { background: #F5F6FA; border: none; outline: none; border-radius: 8px; padding: 7px 12px; font-size: 11px; color: #6A6D80; width: 200px; }
+.filter-pills { display: flex; gap: 6px; }
+.pill { padding: 5px 14px; border-radius: 20px; font-size: 9px; font-weight: 500; background: #F5F6FA; color: #6A6D80; transition: background .15s, color .15s; }
+.pill:hover { background: #ECEDF5; }
+.pill--active { background: #4E74FF; color: #fff; font-weight: 600; }
+.table-wrap { overflow-x: auto; }
+.emp-table { width: 100%; border-collapse: collapse; }
+.emp-table thead tr { background: #F5F6FA; }
+.emp-table th { text-align: left; padding: 10px 16px; font-size: 9px; font-weight: 600; color: #6A6D80; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
+.emp-table td { padding: 12px 16px; font-size: 11px; color: #222230; border-bottom: 1px solid rgba(230,231,240,.5); vertical-align: middle; }
+.row-alt td { background: rgba(245,246,250,.55); }
+.emp-table tbody tr:hover td { background: #F0F2FF; }
+.emp-cell { display: flex; align-items: center; gap: 10px; }
+.emp-avatar { width: 30px; height: 30px; border-radius: 50%; color: #fff; font-size: 10px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.emp-info { display: flex; flex-direction: column; gap: 2px; }
+.emp-name { font-size: 11px; font-weight: 600; color: #222230; white-space: nowrap; }
+.emp-id { font-size: 9px; color: #A1A4B5; }
+.td-mid { color: #6A6D80; } .td-light { color: #A1A4B5; } .td-bold { font-weight: 600; }
+.status-badge { display: inline-block; padding: 4px 10px; border-radius: 20px; font-size: 9px; font-weight: 600; white-space: nowrap; }
+.action-btns { display: flex; gap: 6px; }
+.btn-edit { padding: 4px 12px; border-radius: 6px; background: #E7EAFF; color: #4E74FF; font-size: 9px; font-weight: 600; transition: background .15s; }
+.btn-edit:hover { background: #D0D8FF; }
+.btn-del { padding: 4px 12px; border-radius: 6px; background: #FFE8EC; color: #F7536A; font-size: 9px; font-weight: 600; transition: background .15s; }
+.btn-del:hover { background: #FFD0D7; }

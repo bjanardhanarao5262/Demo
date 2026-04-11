@@ -1,0 +1,18 @@
+.app-layout { display: flex; min-height: 100vh; background: #F5F6FA; }
+.main-area { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.content { flex: 1; padding: 20px 24px 32px; display: flex; flex-direction: column; gap: 20px; overflow-y: auto; }
+.mid-row { display: grid; grid-template-columns: 1fr 420px; gap: 20px; }
+.panel { background: #fff; border-radius: 14px; padding: 20px; box-shadow: 0 4px 18px rgba(0,0,0,.07); }
+.panel-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
+.panel-header h3 { font-size: 14px; color: #222230; }
+.panel-sub { font-size: 10px; color: #A1A4B5; margin-top: 2px; display: block; }
+.traffic-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px; }
+.traffic-top { display: flex; justify-content: space-between; margin-bottom: 5px; }
+.traffic-label { font-size: 11px; font-weight: 500; color: #222230; }
+.traffic-pct { font-size: 11px; font-weight: 700; }
+.traffic-track { background: #F2F3F8; border-radius: 4px; height: 7px; }
+.traffic-fill { height: 7px; border-radius: 4px; }
+.metric-row { display: flex; gap: 8px; margin-top: 8px; }
+.metric-chip { flex: 1; background: #F5F6FA; border-radius: 8px; padding: 10px 8px; display: flex; flex-direction: column; gap: 3px; }
+.metric-val { font-size: 14px; font-weight: 700; }
+.metric-label { font-size: 9px; color: #6A6D80; }
