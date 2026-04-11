@@ -1,0 +1,15 @@
+.tx-section { padding: 8px 16px 0; }
+.tx-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.see-all-btn { font-size: 11px; font-weight: 500; color: #4f2ec8; }
+.tx-list { display: flex; flex-direction: column; gap: 8px; }
+.tx-item { background: #fff; border-radius: 12px; padding: 10px 12px; display: flex; align-items: center; gap: 10px; box-shadow: 0 1px 6px rgba(0,0,0,0.05); }
+.tx-icon-wrap { width: 36px; height: 36px; border-radius: 10px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.tx-icon-wrap--debit { background: #fff0f0; }
+.tx-icon-wrap--credit { background: #edfaf3; }
+.tx-icon { font-size: 18px; }
+.tx-info { flex: 1; display: flex; flex-direction: column; }
+.tx-name { font-size: 12px; font-weight: 600; color: #1a1a1a; }
+.tx-sub { font-size: 10px; color: #888; margin-top: 2px; }
+.tx-amount { font-size: 12px; font-weight: 700; white-space: nowrap; }
+.tx-amount--debit { color: #e74c3c; }
+.tx-amount--credit { color: #1ab469; }

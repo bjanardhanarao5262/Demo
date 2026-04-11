@@ -1,0 +1,10 @@
+.wallet-card { margin: 16px; border-radius: 20px; background: linear-gradient(135deg, #4f2ec8, #7c5ce8); padding: 20px; position: relative; overflow: hidden; color: #fff; box-shadow: 0 8px 24px rgba(79,46,200,0.35); }
+.wallet-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px; }
+.wallet-label { font-size: 12px; opacity: 0.8; font-weight: 500; }
+.toggle-btn { background: rgba(255,255,255,0.15); border-radius: 50%; width: 28px; height: 28px; font-size: 14px; display: flex; align-items: center; justify-content: center; }
+.wallet-balance { font-size: 30px; font-weight: 700; margin: 6px 0 16px; }
+.wallet-actions { display: flex; gap: 10px; }
+.wallet-btn { padding: 8px 18px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+.wallet-btn--secondary { background: rgba(255,255,255,0.2); color: #fff; }
+.wallet-btn--outline { background: #fff; color: #4f2ec8; }
+.wallet-card-icon { position: absolute; right: 16px; top: 16px; font-size: 52px; opacity: 0.12; }

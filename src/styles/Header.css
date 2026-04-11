@@ -1,0 +1,7 @@
+.header { display: flex; align-items: center; justify-content: space-between; padding: 14px 16px; background: #4f2ec8; }
+.header-left { display: flex; align-items: center; gap: 10px; }
+.avatar { width: 40px; height: 40px; border-radius: 50%; background: #ffc72c; color: #4f2ec8; font-weight: 700; font-size: 16px; display: flex; align-items: center; justify-content: center; }
+.header-text { display: flex; flex-direction: column; }
+.greeting { font-size: 13px; font-weight: 500; color: #fff; }
+.sub-greeting { font-size: 11px; color: rgba(255,255,255,0.7); }
+.notif-btn { width: 36px; height: 36px; border-radius: 50%; background: rgba(255,255,255,0.15); display: flex; align-items: center; justify-content: center; font-size: 16px; }

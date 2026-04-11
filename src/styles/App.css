@@ -1,0 +1,5 @@
+.app-wrapper { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #e8e8f0; }
+.phone-frame { width: 390px; height: 844px; background: #f5f5fa; border-radius: 40px; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 24px 60px rgba(0,0,0,0.18); position: relative; }
+.scroll-content { flex: 1; overflow-y: auto; padding-bottom: 16px; }
+.scroll-content::-webkit-scrollbar { display: none; }
+.section-title { font-size: 14px; font-weight: 600; color: #1a1a1a; }
